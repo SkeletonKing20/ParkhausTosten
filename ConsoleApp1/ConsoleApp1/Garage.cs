@@ -10,7 +10,8 @@ namespace ConsoleApp1
         private int parkEtagen;
         private int parkPlätze;
 
-        private Parkplatz[] parkhausPlätze;
+        private Parkplatz[][] garage;
+        private ParkVorgang[] parkVorgänge;
 
         // Opens the StartMenu, accepts numbers from 1 to 5 to navigate
         public void StartMenu()
@@ -56,7 +57,8 @@ namespace ConsoleApp1
         //Checks In a new Car into the Garage via a Parkvorgang
         public void CheckIn()
         {
-            Console.WriteLine("I checked In!");
+            Console.WriteLine("Enter a ");
+
         }
         //Checks Out a Car from the Garage and creates a free space in the Garage
         public void CheckOut()
