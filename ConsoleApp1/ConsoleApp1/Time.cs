@@ -4,9 +4,9 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    public interface IVehicle
+    class Time
     {
-        void GenerateFahrzeugID();
-        string GetFahrzeugID();
+        DateTime CheckInTime;
+        DateTime CheckOutTime;
     }
 }
